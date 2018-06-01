@@ -1,0 +1,164 @@
+
+body {
+    background: url("../img/bg1.png");
+
+}
+
+/* header */
+
+.logo {
+    margin-top: 42px;
+    margin-left: 166px;
+    margin-bottom: -5px;
+}
+.box {
+    display: flex;
+}
+.flag{
+    margin-left: 280px;
+    margin-top: 30px;
+}
+.flag a{
+    margin-right: 20px;
+}
+.contacts{
+    margin-left: 420px;
+    margin-top: 37px;
+}
+.contacts li {
+    display: block;
+    color: #128aa7;
+    list-style: none;
+    padding-left: 85px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #128aa7;
+}
+
+.foto {
+    margin-left: 143px;
+    padding-top: 0px;
+
+}
+
+
+/* centure block site */
+
+#content {
+    margin-top: -19px;
+
+}
+
+.nav {
+    font-family: 12px 'Tahoma', Arial;
+    padding-left: 143px;
+    text-align: center;
+
+}
+
+.nav li{
+    float: left;
+    position: relative;
+    list-style: none;
+    background: #333333;
+    width: 143px;
+
+}
+.nav li a{
+    box-shadow: 1px 5px 10px -5px black;
+}
+
+.nav li > ul li a{
+    padding: 4px;
+    text-align: left;
+
+}
+.nav a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    color: #ffffff;
+
+}
+
+#active a, .nav li:hover > a{
+    background: #333333;
+}
+
+.nav ul{
+    visibility: hidden;
+    padding: 0;
+    position: absolute;
+
+}
+
+.nav li:hover >ul{
+    visibility: visible;
+    position: relative;
+    z-index: 500;
+}
+
+.nav ul a{
+    padding: 18.5px 65px;
+
+}
+
+.nav li a:hover{
+    border-bottom: 1px solid black;
+    box-shadow: 1px 5px 10px -5px black;
+}
+
+.nav > ul li > a i.fa{
+    position: ;
+    top: 15px;
+    /*left: 12px;*/
+    font-size: 18px;
+}
+
+#nav li:first-child:hover >ul{
+    left: 0;
+}
+
+
+/* Информация и новости */
+
+#info {
+
+    width: 200px;
+    height: 535px;
+    display: block;
+    margin-left: 143px;
+    padding-left: 5px;
+    background: #edeef0;
+    position: absolute;
+}
+
+
+h4 {
+    text-align: center;
+}
+
+#news {
+
+    background: #edeef0;
+    width: 200px;
+    height: 535px;
+    display: block;
+    margin-left: 938px;
+    padding-left: 5px;
+    /*margin-top: -558px;*/
+    position: absolute;
+}
+
+#wrapper{
+    margin-top: 21px;
+}
+
+/* footer */
+
+.footer{
+    margin-top: 567px;
+    margin-left: 562px;
+}
